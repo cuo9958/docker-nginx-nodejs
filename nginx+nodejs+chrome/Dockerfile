@@ -21,11 +21,6 @@ RUN wget https://registry.npmmirror.com/-/binary/node/v16.16.0/node-v16.16.0-lin
 
 ENV PATH $PATH:/usr/local/nodejs/bin
 
-
-# 拷贝包管理文件
-COPY . /app
-COPY ./conf.d /etc/nginx/conf.d
-
 ## 字体管理
 RUN apt install fonts-wqy-microhei
 RUN apt install fonts-wqy-zenhei
