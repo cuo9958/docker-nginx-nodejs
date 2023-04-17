@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t nginx_nodejs:0.0.1 .
+docker build -t cuo9958/nginx_nodejs:0.0.1 .
