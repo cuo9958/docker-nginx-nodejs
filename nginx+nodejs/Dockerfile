@@ -11,9 +11,9 @@ RUN ln -fs /usr/share/zoneinfo/${TZ} /etc/localtime && echo ${TZ} > /etc/timezon
 RUN apt install wget -y
 
 ## 安装nodejs
-RUN wget https://registry.npmmirror.com/-/binary/node/v16.16.0/node-v16.16.0-linux-x64.tar.gz \
-    && tar zxf node-v16.16.0-linux-x64.tar.gz \
-    && mv node-v16.16.0-linux-x64 /usr/local/nodejs
+RUN wget https://registry.npmmirror.com/-/binary/node/v18.19.0/node-v18.19.0-linux-x64.tar.gz \
+    && tar zxf node-v18.19.0-linux-x64.tar.gz \
+    && mv node-v18.19.0-linux-x64 /usr/local/nodejs
 
 ENV PATH $PATH:/usr/local/nodejs/bin
 
