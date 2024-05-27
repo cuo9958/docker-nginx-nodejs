@@ -25,3 +25,10 @@
 1. 默认包含pm2。
 2. nginx-1.17.10
 3. nodejs-18.19.0
+
+## python_nginx_nodejs
+
+### 0.01版本
+1. python 3.7.17
+2. nginx 1.26.0
+3. nodejs 18.19.0
